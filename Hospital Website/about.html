@@ -1,0 +1,132 @@
+<html>
+<head>
+  <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>about us</title>
+</head>
+<style>
+    .top { background-color:#04b861;
+    overflow: hidden; }
+    
+    .top a { float:left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:17px; }
+    
+    .top a:hover {background-color: #302d2d;
+    color: white; }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    }
+    
+    .dropdown {
+    float:left;
+    overflow:hidden;
+    }
+    
+    
+    .dropdown .dropbtn {
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      color: black;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      min-width: 160px;
+      box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.3);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: black;
+      background-color:#029950;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+    #about-section {
+      margin:0 auto;
+      background-color: rgba(127, 255, 212,0.5);
+      width:97%;
+      height: 860px;
+      border-radius: 10px;
+      font-size:20px;
+      padding-top: 5px;
+      box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.3);
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+      
+      p {
+        font-size: 25px; 
+      }
+
+      li p{
+        
+        font-size:20px;
+      }
+    </style>
+    
+    <body style=" background-color: rgb(9, 192, 70); background-image: url(bgi.png); background-repeat: repeat; background-size: 100%">
+        
+     <div class="top">
+      <nav>
+        <img src="hmslogo2.png" height="50px" align="left">
+        <a href="home.html"><b>Home</b></a>
+        <a href="about.html"><b>About</b></a>
+		    <a href="contact.html"><b>Contact</b></a>
+        
+        <div  class="dropdown">
+        <button type="button" class="dropbtn"><b>Login</b>
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="docLog.html">Doctor's Portal</a>
+        <a href="patLog.html">Patient's Portal</a>
+        <a href="adLog.html">Admin's Portal</a>
+        <a href="reg.html">New Patient Registration</a>
+        </div>
+        </div>
+        </nav>
+        </div>
+        <hr>
+        <div class="container-fluid" id="about-section"> 
+        
+          <h1 style="text-align: center; background-color:aqua; width:100%; padding: 15px 0 15px 0px; box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.3);">About Hospital Management System</h1>
+         
+
+        <p>Hospital management system is a computer system that helps manage the information related to health care. Our system manage the data related to all departments of healthcare such as, Inpatient, Outpatient, Appointments, etc.</p>
+        
+        <p>HMS was introduced to solve the complications coming from managing all the paper works of every patient associated with the various departments of hospitalization with confidentiality. HMS provides the ability to manage all the paperwork in one place, reducing the work of staff in arranging and analyzing the paperwork of the patients. HMS does many works like:</p>
+      <ul>
+         <li><p> Maintain the medical records of the patient. </p></li>
+         <li><p>Maintain the contact details of the patient.</p></li>
+         <li><p>Keep track of the appointment dates.</p> </li>
+         <li><p>Improved Efficiency by avoiding human errors.</p></li>
+         <li><p>Time-saving Technology.</p> </li>
+      </ul>
+    </div>
+</body>
+</html>
