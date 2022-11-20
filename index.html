@@ -1,0 +1,132 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+<title>Mini Project</title>
+</head>
+
+<style>
+.top { background-color:#04b861;
+overflow: hidden;
+}
+
+.top a { float:left;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size:17px; }
+
+.top a:hover {background-color: #302d2d;
+color: white; }
+
+.dropdown-content {
+display: none;
+position: absolute;
+}
+
+.dropdown {
+float:left;
+overflow:hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+  min-width: 160px;
+  box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.3);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  background-color:#029950;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+</style>
+
+<body style="background-color: rgb(10,100,40); background-image: url(hbgi.png); background-repeat: repeat; background-size: 100%;">
+<div class="container-fluid">
+
+  <div class="top">
+    <nav>
+    <a href="index.html"><b>Home</b></a>
+    <a href="about.html"><b>About</b></a>
+    <a href="contact.html"><b>Contact</b></a>
+    
+    <div  class="dropdown">
+    <button type="button" class="dropbtn"><b>Login</b>
+    <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="docLog.html">Doctor's Portal</a>
+    <a href="patLog.html">Patient's Portal</a>
+    <a href="adLog.html">Admin's Portal</a>
+    <a href="reg.html">New Patient Registration</a>
+    </div>
+    </div>
+    </nav>
+    </div>
+  <hr>
+
+  <table width = "100%" border = "0">
+      <tr>
+          <td colspan = "3" bgcolor = "#2eb89c" style="text-align: center; vertical-align: middle;">
+		  <img src="hmslogo2.png" height="100px" style="box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.3);">
+             <h1>Hospital Database Management System</h1>
+          </td>
+		
+		  <tr>
+		  <td colspan="3" bgcolor="gray" align= "center" >
+		  <h3>Log-In using:</h3>
+		  </td>
+		  </tr>
+       </tr>
+       <tr valign = "middle" align="center">
+          <td style="background-color: rgb(170,170,170)"; width = "33%">
+             <a href="docLog.html">Doctor ID</a>
+          </td>
+<td style= "background-color: rgb(170,170,170);" width = "33%" height = "30">
+             <a href="adLog.html">Admin ID</a>
+          </td>
+		  <td style="background-color: rgb(170,170,170);" >
+		  <a href="patLog.html">Patient ID</a>
+		  </td>
+       </tr>  
+    </table>
+    <br><hr><br>
+    <hr color="brown"; style="width:25%; text-align:center; border: 2px solid maroon; border-radius: 5px;">
+    <div id="quote" style="margin:0 auto; width:50%; background-color: rgba(249,168,37,0.8);">
+    <h2><i class="fas fa-quote-left [&#xf10d]"></i>
+    &nbsp<i>Time and health are two precious assets that we don’t recognize and appreciate until they have been depleted.</i>
+    &nbsp<i class="fas fa-quote-right [&#xf10e]"></i>
+    <br><span style="float:right">– Denis Waitley</span><br>
+  </h2>
+  </div>
+  <hr color="brown"; style="width:25%; text-align:center; border: 2px solid maroon; border-radius: 5px;">
+ </div>
+ </body>
+</html>
